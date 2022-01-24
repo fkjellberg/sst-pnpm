@@ -15,20 +15,20 @@
     ]
   },
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.1",
-    "@types/aws-lambda": "^8.10.70",
+    "@tsconfig/node14": "1.0.1",
+    "@types/aws-lambda": "8.10.91",
     "@types/node": "<15.0.0"
   },
   "dependencies": {
-    "@serverless-stack/cli": "0.60.2",
-    "@serverless-stack/resources": "0.60.2",
-    "aws-cdk-lib": "2.7.0",
-    "constructs": "10.0.36",
     "@aws-sdk/signature-v4-crt": "3.47.0",
-    "react": "~17.0.2",
-    "react-dom": "~17.0.2",
-    "react-query": "3.34.8",
+    "@babel/core": "7.16.12",
+    "@serverless-stack/cli": "0.60.4",
+    "@serverless-stack/resources": "0.60.4",
+    "aws-cdk-lib": "2.7.0",
     "builtin-modules": "3.2.0",
-    "@babel/core": "^7.12.10"
+    "constructs": "10.0.36",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "3.34.8"
   }
 }
