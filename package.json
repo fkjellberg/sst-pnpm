@@ -15,7 +15,7 @@
     ]
   },
   "devDependencies": {
-    "@serverless-stack/aws-lambda-ric": "2.0.10",
+    "@serverless-stack/aws-lambda-ric": "2.0.12",
     "@tsconfig/node14": "1.0.1",
     "@types/aws-lambda": "8.10.91",
     "@types/node": "<15.0.0",
@@ -23,15 +23,10 @@
   },
   "dependencies": {
     "@aws-sdk/signature-v4-crt": "3.47.0",
-    "@babel/core": "7.16.12",
-    "@serverless-stack/cli": "0.60.4",
-    "@serverless-stack/resources": "0.60.4",
+    "@serverless-stack/cli": "0.64.1",
+    "@serverless-stack/resources": "0.64.1",
     "aws-cdk-lib": "2.7.0",
-    "builtin-modules": "3.2.0",
     "constructs": "10.0.36",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-query": "3.34.8",
     "uuid": "8.3.2"
   }
 }
