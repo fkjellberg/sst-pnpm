@@ -34,8 +34,8 @@ function readPackage(packageJson, context) {
   //  packageJson.dependencies['log4js'] = '0.6.38';
   // }
 
-  if (packageJson.name === '@serverless-stack/cli') {
-    packageJson.dependencies['esbuild'] = "~0.14.0";
+  if (packageJson.name === 'eslint-config-serverless-stack') {
+    packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
   }
 
   return packageJson;
