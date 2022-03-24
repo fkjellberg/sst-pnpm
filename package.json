@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@serverless-stack/aws-lambda-ric": "^2.0.12",
-    "@serverless-stack/cli": "0.68.0",
-    "@serverless-stack/resources": "0.68.0",
+    "@serverless-stack/cli": "0.68.1",
+    "@serverless-stack/resources": "0.68.1",
     "@tsconfig/node14": "1.0.1",
     "@types/aws-lambda": "8.10.91",
     "@types/node": "<15.0.0",
