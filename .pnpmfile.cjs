@@ -35,14 +35,10 @@ function readPackage(packageJson, context) {
   // }
 
   if (packageJson.name === '@serverless-stack/cli') {
-    packageJson.dependencies['esbuild'] = "~0.14.0";
+    packageJson.dependencies['graphql'] = "16.3.0";
   }
 
   if (packageJson.name === '@serverless-stack/core') {
-    packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
-  }
-
-  if (packageJson.name === 'eslint-config-serverless-stack') {
     packageJson.dependencies['@typescript-eslint/parser'] = "^5.0.0";
   }
 
