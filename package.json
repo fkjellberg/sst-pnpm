@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "sst test",
     "start": "sst start",
     "build": "sst build",
     "deploy": "sst deploy",
@@ -15,8 +14,8 @@
     ]
   },
   "devDependencies": {
-    "@serverless-stack/cli": "0.69.6",
-    "@serverless-stack/resources": "0.69.6",
+    "@serverless-stack/cli": "1.1.2",
+    "@serverless-stack/resources": "1.1.2",
     "@tsconfig/node14": "1.0.1",
     "@types/aws-lambda": "8.10.91",
     "@types/node": "<15.0.0",

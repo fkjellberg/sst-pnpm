@@ -28,10 +28,6 @@ Deploy all your stacks to AWS. Or optionally deploy a specific stack.
 
 Remove all your stacks and all of their resources from AWS. Or optionally remove a specific stack.
 
-### `pnpm run test`
-
-Runs your tests using Jest. Takes all the [Jest CLI options](https://jestjs.io/docs/en/cli).
-
 ## Documentation
 
 Learn more about the Serverless Stack.
