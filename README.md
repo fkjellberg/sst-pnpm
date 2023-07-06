@@ -1,16 +1,32 @@
 # Getting Started with Serverless Stack (SST)
 
-This project was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).
+This example is based on SST 2.19.0 and was created using the following command in a separate folder and then copied here:
+```sh
+% pnpm create sst rest-api
+.../Library/pnpm/store/v3/tmp/dlx-44169  | +151 +++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Users/fkjellberg/Library/pnpm/store/v3
+  Virtual store is at:             ../../../../Library/pnpm/store/v3/tmp/dlx-44169/node_modules/.pnpm
+.../Library/pnpm/store/v3/tmp/dlx-44169  | Progress: resolved 151, reused 149, downloaded 2, added 151, done
+✔ Copied template files
 
-Start by installing the dependencies.
+Next steps:
+- cd rest-api
+- npm install (or pnpm install, or yarn)
+- npm run dev
+```
 
-```bash
-$ pnpm install
+The `package.json` files have been updated to lock to a specific version of each dependency.
+
+Install the dependencies.
+
+```sh
+% pnpm install
 ```
 
 ## Commands
 
-### `pnpm run start`
+### `pnpm run dev`
 
 Starts the local Lambda development environment.
 
@@ -20,11 +36,11 @@ Build your app and synthesize your stacks.
 
 Generates a `.build/` directory with the compiled files and a `.build/cdk.out/` directory with the synthesized CloudFormation stacks.
 
-### `pnpm run deploy [stack]`
+### `pnpm run deploy [stack]` or `pnpm sst deploy --stage <name> [stack]`
 
 Deploy all your stacks to AWS. Or optionally deploy a specific stack.
 
-### `pnpm run remove [stack]`
+### `pnpm run remove [stack]` or `pnpm run remove --stage <name> [stack]`
 
 Remove all your stacks and all of their resources from AWS. Or optionally remove a specific stack.
 
